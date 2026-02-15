@@ -1,0 +1,31 @@
+name: "DevOps and CI/CD"
+description: "DevOps tools and practices including Docker, GitHub Actions, infrastructure deployment, and monitoring."
+
+resources:
+  - type: agent
+    path: agents/devops-engineer.agent.md
+    description: "DevOps, Docker, CI/CD, and infrastructure specialist"
+
+  - type: agent
+    path: agents/aws-cdk-engineer.agent.md
+    description: "AWS infrastructure as code"
+
+  - type: instruction
+    path: instructions/docker.instructions.md
+    description: "Docker multi-stage builds and best practices"
+
+  - type: instruction
+    path: instructions/github-actions.instructions.md
+    description: "CI/CD workflow patterns and reusable workflows"
+
+  - type: instruction
+    path: instructions/aws-cdk.instructions.md
+    description: "Infrastructure deployment with CDK"
+
+  - type: skill
+    path: skills/docker-compose-stacks/SKILL.md
+    description: "Docker Compose configurations for development"
+
+  - type: prompt
+    path: prompts/create-cdk-stack.prompt.md
+    description: "Generate infrastructure stack"

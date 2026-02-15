@@ -1,0 +1,35 @@
+name: "Amazon Connect Development"
+description: "Specialized collection for Amazon Connect contact center development including contact flows, Lambda integrations, CCP customization, and Lex bots."
+
+resources:
+  - type: agent
+    path: agents/amazon-connect-expert.agent.md
+    description: "Amazon Connect contact flows and integrations specialist"
+
+  - type: agent
+    path: agents/aws-serverless-architect.agent.md
+    description: "Lambda functions for Connect integrations"
+
+  - type: instruction
+    path: instructions/amazon-connect.instructions.md
+    description: "Contact flow patterns and Lambda handler interfaces"
+
+  - type: instruction
+    path: instructions/aws-lambda.instructions.md
+    description: "Lambda handler patterns for Connect events"
+
+  - type: instruction
+    path: instructions/nodejs-typescript.instructions.md
+    description: "TypeScript standards for Connect handlers"
+
+  - type: skill
+    path: skills/amazon-connect-toolkit/SKILL.md
+    description: "Contact flow templates and CCP customization"
+
+  - type: prompt
+    path: prompts/create-connect-flow.prompt.md
+    description: "Generate Amazon Connect contact flow with Lambdas"
+
+  - type: prompt
+    path: prompts/create-lambda.prompt.md
+    description: "Generate Lambda for Connect integration"

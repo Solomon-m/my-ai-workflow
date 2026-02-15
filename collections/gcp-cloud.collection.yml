@@ -1,0 +1,23 @@
+name: "GCP Cloud Development"
+description: "Google Cloud Platform development resources including Cloud Functions, Firestore, Cloud Run, and Pub/Sub patterns."
+
+resources:
+  - type: agent
+    path: agents/gcp-cloud-engineer.agent.md
+    description: "GCP Cloud Functions, Firestore, and Cloud Run specialist"
+
+  - type: agent
+    path: agents/nodejs-backend-engineer.agent.md
+    description: "Node.js backend development for GCP"
+
+  - type: instruction
+    path: instructions/gcp-cloud.instructions.md
+    description: "Cloud Functions and Firestore development patterns"
+
+  - type: instruction
+    path: instructions/nodejs-typescript.instructions.md
+    description: "TypeScript standards for Cloud Functions"
+
+  - type: instruction
+    path: instructions/docker.instructions.md
+    description: "Docker best practices for Cloud Run"

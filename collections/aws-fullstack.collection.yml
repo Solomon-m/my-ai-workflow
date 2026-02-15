@@ -1,0 +1,59 @@
+name: "AWS Full-Stack Development"
+description: "Complete collection of agents, instructions, and skills for building AWS serverless full-stack applications with Lambda, API Gateway, DynamoDB, and CDK."
+
+resources:
+  - type: agent
+    path: agents/aws-serverless-architect.agent.md
+    description: "Expert in AWS Lambda, API Gateway, DynamoDB, S3, Step Functions"
+
+  - type: agent
+    path: agents/aws-cdk-engineer.agent.md
+    description: "AWS CDK infrastructure as code specialist"
+
+  - type: agent
+    path: agents/nodejs-backend-engineer.agent.md
+    description: "Node.js and TypeScript backend development"
+
+  - type: agent
+    path: agents/fullstack-planner.agent.md
+    description: "Orchestrates multi-agent workflows"
+
+  - type: instruction
+    path: instructions/nodejs-typescript.instructions.md
+    description: "Node.js and TypeScript coding standards"
+
+  - type: instruction
+    path: instructions/aws-lambda.instructions.md
+    description: "Lambda handler patterns and best practices"
+
+  - type: instruction
+    path: instructions/aws-cdk.instructions.md
+    description: "CDK construct patterns and stack organization"
+
+  - type: instruction
+    path: instructions/api-gateway.instructions.md
+    description: "API Gateway REST/HTTP API design patterns"
+
+  - type: instruction
+    path: instructions/dynamodb.instructions.md
+    description: "DynamoDB single-table design patterns"
+
+  - type: skill
+    path: skills/aws-cdk-patterns/SKILL.md
+    description: "Reusable CDK construct patterns"
+
+  - type: skill
+    path: skills/serverless-testing/SKILL.md
+    description: "Testing strategies for serverless apps"
+
+  - type: prompt
+    path: prompts/create-lambda.prompt.md
+    description: "Generate complete Lambda function with tests"
+
+  - type: prompt
+    path: prompts/create-cdk-stack.prompt.md
+    description: "Generate CDK infrastructure stack"
+
+  - type: prompt
+    path: prompts/debug-lambda.prompt.md
+    description: "Debug Lambda execution issues"

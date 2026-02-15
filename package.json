@@ -1,0 +1,31 @@
+{
+  "name": "myai-workflow",
+  "version": "1.0.0",
+  "description": "GitHub Copilot workspace template with custom agents, skills, instructions, and prompts",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "validate:agents": "node scripts/validate.js agents",
+    "validate:instructions": "node scripts/validate.js instructions",
+    "validate:prompts": "node scripts/validate.js prompts",
+    "validate:skills": "node scripts/validate.js skills",
+    "validate:collections": "node scripts/validate.js collections",
+    "list:agents": "node scripts/list-resources.js agents",
+    "list:all": "node scripts/list-resources.js all"
+  },
+  "keywords": [
+    "github-copilot",
+    "ai-workflow",
+    "aws",
+    "serverless",
+    "react",
+    "cdk",
+    "amazon-connect"
+  ],
+  "author": "Your Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "yaml": "^2.3.4"
+  }
+}

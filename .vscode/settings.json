@@ -1,0 +1,37 @@
+{
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "markdown": true
+  },
+  "github.copilot.agent.enabled": true,
+  "github.copilot.advanced": {
+    "debug.overrideEngine": "gpt-4"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.agent.md": "markdown",
+    "*.prompt.md": "markdown",
+    "*.instructions.md": "markdown",
+    "*.collection.yml": "yaml"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.github/logs": true
+  }
+}

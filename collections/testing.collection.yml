@@ -1,0 +1,27 @@
+name: "Testing and Quality"
+description: "Comprehensive testing resources including unit tests, integration tests, E2E tests, and code review standards."
+
+resources:
+  - type: agent
+    path: agents/testing-engineer.agent.md
+    description: "Testing strategies and implementation expert"
+
+  - type: agent
+    path: agents/code-reviewer.agent.md
+    description: "Code quality and best practices reviewer"
+
+  - type: instruction
+    path: instructions/testing.instructions.md
+    description: "Jest and Vitest testing conventions"
+
+  - type: instruction
+    path: instructions/nodejs-typescript.instructions.md
+    description: "TypeScript standards for testable code"
+
+  - type: skill
+    path: skills/serverless-testing/SKILL.md
+    description: "Serverless testing strategies with LocalStack"
+
+  - type: skill
+    path: skills/react-component-generator/SKILL.md
+    description: "React component testing with RTL"

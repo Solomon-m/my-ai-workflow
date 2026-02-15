@@ -1,0 +1,27 @@
+name: "Structured Autonomy Workflow"
+description: "Three-phase workflow for breaking down requirements, generating specifications, and implementing solutions with clear task tracking."
+
+resources:
+  - type: agent
+    path: agents/fullstack-planner.agent.md
+    description: "Orchestrator for complex multi-step projects"
+
+  - type: prompt
+    path: prompts/sa-plan.prompt.md
+    description: "Phase 1: Requirements analysis and task planning"
+
+  - type: prompt
+    path: prompts/sa-generate.prompt.md
+    description: "Phase 2: Implementation specifications and templates"
+
+  - type: prompt
+    path: prompts/sa-implement.prompt.md
+    description: "Phase 3: Production-ready code implementation"
+
+  - type: agent
+    path: agents/code-reviewer.agent.md
+    description: "Code quality review after implementation"
+
+  - type: agent
+    path: agents/testing-engineer.agent.md
+    description: "Test implementation and coverage validation"

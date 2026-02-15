@@ -1,0 +1,35 @@
+name: "React Frontend Development"
+description: "Complete React development collection with TypeScript, component patterns, hooks, testing, and modern best practices."
+
+resources:
+  - type: agent
+    path: agents/react-frontend-engineer.agent.md
+    description: "React 19+ frontend development specialist"
+
+  - type: agent
+    path: agents/testing-engineer.agent.md
+    description: "Testing strategies and implementation"
+
+  - type: agent
+    path: agents/code-reviewer.agent.md
+    description: "Code quality and React best practices review"
+
+  - type: instruction
+    path: instructions/reactjs.instructions.md
+    description: "React component patterns and hooks standards"
+
+  - type: instruction
+    path: instructions/nodejs-typescript.instructions.md
+    description: "TypeScript coding standards"
+
+  - type: instruction
+    path: instructions/testing.instructions.md
+    description: "Vitest and React Testing Library conventions"
+
+  - type: skill
+    path: skills/react-component-generator/SKILL.md
+    description: "React component templates with forms, tables, modals"
+
+  - type: prompt
+    path: prompts/create-react-component.prompt.md
+    description: "Generate production-ready React component with tests"
